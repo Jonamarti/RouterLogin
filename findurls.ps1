@@ -16,7 +16,6 @@ function Find-UrlsParallel {
         for ($part2 = $start_part2; $part2 -le $end_part2; $part2++) {
             for ($part3 = $start_part3; $part3 -le $end_part3; $part3++) {
                 for ($part4 = $start_part4; $part4 -le $end_part4; $part4++) {
-                    Write-Host "http://$part1.$part2.$part3.$part4"
                     Find-Endpoint -Url "http://$part1.$part2.$part3.$part4"
                 }
             }
