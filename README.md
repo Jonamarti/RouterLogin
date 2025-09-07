@@ -17,5 +17,5 @@ On Windows with Powershell:
 
 
 ```Powershell
-./main.ps1
+.\main.ps1
 ```
